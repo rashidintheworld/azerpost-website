@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    font-family: "Geologica", sans-serif;
+}
+
+
+.container{
+    width: 1280px;
+    margin: auto;
+}
+
+.back-left-all{
+    display: flex;
+}
+
+.back-left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.back-image{
+    padding: 129px 0px;
+    background: linear-gradient(1deg, rgba(3, 76, 125, 0.6) 0%, rgba(0, 8, 13, 0) 100%), url(https://azerpost.az/images/management.png) no-repeat 100%;
+}
+
+.back-left h3{
+    font-size: 50px;
+    color: white;
+}
+
+.back-left p{
+    font-size: 24px;
+    color: white;
+}
+
+.rehberlik{
+    padding: 100px 0;
+}
+
+.rehberlik-all{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.cart{
+    box-shadow: 0 0 15px rgba(209, 209, 209, 0.5);
+    width: 1280px;
+    display: flex;
+    column-gap: 40px;
+    padding: 30px 65px 30px 40px;
+    border-radius: 8px;
+}
+
+.cart-left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 39%;
+}
+
+.cart-left-image{
+    width: 95%;
+    border: 8px;
+}
+
+.cart-left-image img{
+    width: 100%;
+}
+
+.cart-left-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    text-align: center;
+}
+
+.cart-left-text h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cart-right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20%;
+}
+
+.cart-right-text p{
+    font-size: 13px;
+}
+
+.cart-right button{
+    background-color: transparent;
+    padding: 8px 5px;
+    width: 12%;
+    border: 1px solid #017ACA;
+    border-radius: 5px;
+    font-weight: bolder;
+}

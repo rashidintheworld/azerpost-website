@@ -1,0 +1,61 @@
+.container{
+    width: 1280px;
+    margin: auto;
+}
+
+.back-image{
+    padding: 129px 0px;
+    background: linear-gradient(1deg, rgba(3, 76, 125, 0.6) 0%, rgba(0, 8, 13, 0) 100%), url(https://azerpost.az/images/management.png) no-repeat 100%;
+}
+
+
+.back-left h3{
+    font-size: 50px;
+    color: white;
+}
+
+.back-left p{
+    font-size: 24px;
+    color: white;
+}
+
+
+.CDS{
+    padding: 50px 0;
+}
+
+.CDS-card{
+    padding: 75px 55px;
+    box-shadow: 0 0 15px rgba(209, 209, 209, 0.5);
+    width: 1280px;
+}
+
+.CDS-card-top{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.CDS-card-top h3{
+    font-size: 25px;
+    color: #64A5CF;
+}
+
+.CDS-card-top p{
+    font-size: 13px;
+}
+
+.CDS-card-bot{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CDS-card-bot button{
+    border: none;
+    outline: none;
+    padding: 10px 80px;
+    background-color: #EF7F1B;
+    color: white;
+}

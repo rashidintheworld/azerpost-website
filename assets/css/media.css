@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    font-family: "Geologica", sans-serif;
+}
+
+
+.container{
+    width: 1280px;
+    margin: auto;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    row-gap: 60px;
+    flex-wrap: wrap;
+}
+
+.main-all{
+    padding: 100px 0;
+}
+
+.line{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.page{
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+}
+
+
